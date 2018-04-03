@@ -144,7 +144,7 @@ class MyArray {
 }
 
 //1.1
-let worker1 = new Worker("Продан", "Не інженер", 800);
+let worker1 = new Worker("Продан", "Не інж", 800);
 document.write("Прізвище: " + worker1.lastName + "<br />");
 document.write("Оклад: " + worker1.salary + "<br />");
 worker1.increaseSalary();
@@ -153,7 +153,7 @@ document.write("Посада: " + worker1.position + "<br />");
 document.write("<br />");
 
 //1.2
-let worker2 = new Worker("Василевич", "Не інженер", 1000);
+let worker2 = new Worker("Василевич", "Не інж", 1000);
 document.write("Прізвище: " + worker2.lastName + "<br />");
 document.write("Оклад: " + worker2.salary + "<br />");
 worker2.increaseSalary();
